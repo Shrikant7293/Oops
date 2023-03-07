@@ -4,12 +4,21 @@ public class Program
 {
 	public static void Main()
 	{
-		Student student = new Student();
-		student.GetData();
-		student.PutData();
-		
-		// School();
 
+		// Non- Returning Function And Returning Function
+		
+		Doctor doctor1 = new Doctor();
+		doctor1.GetData();
+		doctor1.PutData();
+
+		// Typecasting
+		//Doctor.TypeCasting();
+
+		//Student student = new Student();    // Non-Static Function
+		//student.GetData();
+		//student.PutData();
+
+		// School();              // Static Function
 	}
 
 	public static void School()
