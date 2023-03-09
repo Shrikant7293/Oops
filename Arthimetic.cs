@@ -79,22 +79,19 @@ namespace Oops
 
 		#region 3. Input/Output Parameter
 
-		public void Add(int w,int x,ref int result6)
+		public void Add(int w,int x,ref int result6) // Addition
 		{
 			result6 = result6 + w + x;
-			Console.WriteLine($"{w} + {x} = {result6}");
 		}
 
-		public void Sub(int r, int s, ref int result7)
+		public void Sub(int r, int s, ref int result7) // Substraction
 		{
 			result7 = result7 - r - s;
-			Console.WriteLine($"{r} - {s} = {result7}");
 		}
 
-		public void Mul(int g, int h, ref int result8)
+		public void Mul(int g, int h, ref int result8) // Multiplication
 		{
 			result8 = result8 * g * h;
-			Console.WriteLine($"{g} * {h} = {result8}");
 		}
 		#endregion
 
